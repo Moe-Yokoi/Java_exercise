@@ -3,8 +3,8 @@
 ## Q1: 
 > Write a Java program with a method named 'totalSum' that takes in an argument of two integers and return its sum. Call this method from main( ) and print the results.
 
-public class totalSum {
-	
+
+	public class totalSum {
 	public static int totalSum(int number1, int number2) {
 		return number1 + number2;
 	}
@@ -14,8 +14,9 @@ public class totalSum {
 		
         
 	}
+	}
 
-}
+
 
 ## Q2:
 > Write a Java program with a method named 'getGrades' that will display grades according to the marks entered into the method call as below:
@@ -30,7 +31,9 @@ Marks        Grade
 <=40          Fail
 ```
 
-public class getGrades {
+
+		
+	public class getGrades {
 	public static String getGrades(int number) {
 		if (number >= 91 && number <=100) {
 			return "A+";
@@ -48,9 +51,7 @@ public class getGrades {
 			return "Fail";
 		}else {
 			return "Enter correct number";
-		}
-		
-		
+		}	
 	}
 	
 	public static void main(String[] args) {
@@ -58,8 +59,8 @@ public class getGrades {
 		
         
 	}
+	}
 
-}
 
 
 ## Q3:
@@ -73,12 +74,12 @@ Also,
 0! = 0
 ```
 
-public class factorial {
+
+	public class factorial {
 	public static int factorial(int n) {
 		if(n==0) {
 			return 0;
-		}else{
-			
+		}else{	
 		int total = 1;
 		for( int i=n; i>1; i--) {
 			total *=i;
@@ -92,15 +93,17 @@ public class factorial {
 		
         
 	}
+	}
 
-}
 
 
 ## Q4
 > Write a Java method to create the area of a pentagon.
 
 
-public class areaOfPentagon {
+
+	
+	public class areaOfPentagon {
 	public static  double areaOfPentagon(double base, double height) {
 		return base * height /2;
 	}
@@ -110,5 +113,6 @@ public class areaOfPentagon {
 		
         
 	}
+	}
 
-}
+
